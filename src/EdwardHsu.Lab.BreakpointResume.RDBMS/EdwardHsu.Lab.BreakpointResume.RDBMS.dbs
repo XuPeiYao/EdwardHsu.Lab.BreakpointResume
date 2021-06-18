@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="EdwardHsu.Lab.BreakpointResume.RDBMS" id="Project_fef" database="PostgreSQL" >
+	<schema name="edwardhsu.lab.breakpointresume.rdbms" />
+	<layout name="Default Layout" id="Layout_f1" show_relation="columns" />
+</project>

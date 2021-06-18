@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdwardHsu.Lab.BreakpointResume", "EdwardHsu.Lab.BreakpointResume\EdwardHsu.Lab.BreakpointResume.csproj", "{3963B8BC-4862-48A2-ABFF-8603B652ADFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Presentation", "01_Presentation", "{8DA749C2-2E48-4E69-8EA2-55C6F30D3C89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Domain", "02_Domain", "{8BF9E0E2-5E66-489F-B1A5-E8D97D476010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Accesses", "03_Accesses", "{B76BA686-62DB-4582-8472-CB2F304C2D62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Persistance", "05_Persistance", "{FE050BE0-23BC-43D6-916D-8CCB0FF10C2B}"
+	ProjectSection(SolutionItems) = preProject
+		EdwardHsu.Lab.BreakpointResume.RDBMS\EdwardHsu.Lab.BreakpointResume.RDBMS.dbs = EdwardHsu.Lab.BreakpointResume.RDBMS\EdwardHsu.Lab.BreakpointResume.RDBMS.dbs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_Deployment", "07_Deployment", "{5F9FFF87-11B1-4300-8F70-43818AB755C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Tests", "06_Tests", "{1A80DDDC-896B-47DD-AE27-7BC3133061FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Solution", "00_Solution", "{FF92252B-B574-495C-91FB-22092A6CB285}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Utilities", "04_Utilities", "{A629A1C3-C69A-4424-8200-DB4DA3180BAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdwardHsu.Lab.BreakpointResume.Accesses", "EdwardHsu.Lab.BreakpointResume.Accesses\EdwardHsu.Lab.BreakpointResume.Accesses.csproj", "{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.BreakpointResume.Utilities", "EdwardHsu.Lab.BreakpointResume.Utilities\EdwardHsu.Lab.BreakpointResume.Utilities.csproj", "{F823CF1B-654B-4752-8A45-B0958EE4EB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.BreakpointResume.Tests", "EdwardHsu.Lab.BreakpointResume.Tests\EdwardHsu.Lab.BreakpointResume.Tests.csproj", "{27049B33-B3A4-4D6C-9181-8163D05030BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3963B8BC-4862-48A2-ABFF-8603B652ADFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3963B8BC-4862-48A2-ABFF-8603B652ADFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3963B8BC-4862-48A2-ABFF-8603B652ADFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3963B8BC-4862-48A2-ABFF-8603B652ADFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F823CF1B-654B-4752-8A45-B0958EE4EB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F823CF1B-654B-4752-8A45-B0958EE4EB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F823CF1B-654B-4752-8A45-B0958EE4EB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F823CF1B-654B-4752-8A45-B0958EE4EB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27049B33-B3A4-4D6C-9181-8163D05030BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27049B33-B3A4-4D6C-9181-8163D05030BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27049B33-B3A4-4D6C-9181-8163D05030BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27049B33-B3A4-4D6C-9181-8163D05030BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3963B8BC-4862-48A2-ABFF-8603B652ADFE} = {8BF9E0E2-5E66-489F-B1A5-E8D97D476010}
+		{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F} = {B76BA686-62DB-4582-8472-CB2F304C2D62}
+		{F823CF1B-654B-4752-8A45-B0958EE4EB2D} = {A629A1C3-C69A-4424-8200-DB4DA3180BAC}
+		{27049B33-B3A4-4D6C-9181-8163D05030BA} = {1A80DDDC-896B-47DD-AE27-7BC3133061FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5C80B37-5632-463B-BFAE-41C2719956ED}
+	EndGlobalSection
+EndGlobal

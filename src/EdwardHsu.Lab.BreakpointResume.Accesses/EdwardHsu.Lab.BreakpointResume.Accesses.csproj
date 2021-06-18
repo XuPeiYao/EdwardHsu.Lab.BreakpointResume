@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EdwardHsu.Lab.BreakpointResume.Utilities\EdwardHsu.Lab.BreakpointResume.Utilities.csproj" />
+    <ProjectReference Include="..\EdwardHsu.Lab.BreakpointResume\EdwardHsu.Lab.BreakpointResume.csproj" />
+  </ItemGroup>
+
+</Project>

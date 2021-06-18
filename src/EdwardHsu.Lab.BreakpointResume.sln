@@ -17,6 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Persistance", "05_Persis
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_Deployment", "07_Deployment", "{5F9FFF87-11B1-4300-8F70-43818AB755C4}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Tests", "06_Tests", "{1A80DDDC-896B-47DD-AE27-7BC3133061FF}"
 EndProject
@@ -29,9 +32,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Utilities", "04_Utilitie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdwardHsu.Lab.BreakpointResume.Accesses", "EdwardHsu.Lab.BreakpointResume.Accesses\EdwardHsu.Lab.BreakpointResume.Accesses.csproj", "{0EE7182D-BAE8-42A6-8D91-9F87AB4B454F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.BreakpointResume.Utilities", "EdwardHsu.Lab.BreakpointResume.Utilities\EdwardHsu.Lab.BreakpointResume.Utilities.csproj", "{F823CF1B-654B-4752-8A45-B0958EE4EB2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdwardHsu.Lab.BreakpointResume.Utilities", "EdwardHsu.Lab.BreakpointResume.Utilities\EdwardHsu.Lab.BreakpointResume.Utilities.csproj", "{F823CF1B-654B-4752-8A45-B0958EE4EB2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdwardHsu.Lab.BreakpointResume.Tests", "EdwardHsu.Lab.BreakpointResume.Tests\EdwardHsu.Lab.BreakpointResume.Tests.csproj", "{27049B33-B3A4-4D6C-9181-8163D05030BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EdwardHsu.Lab.BreakpointResume.Tests", "EdwardHsu.Lab.BreakpointResume.Tests\EdwardHsu.Lab.BreakpointResume.Tests.csproj", "{27049B33-B3A4-4D6C-9181-8163D05030BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
